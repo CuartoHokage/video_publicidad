@@ -1,0 +1,19 @@
+{
+  "name": "conversor_excel",
+  "version": "1.0.0",
+  "description": "Conversor de XLXS a CSV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Jaime Paz",
+  "license": "MIT",
+  "dependencies": {
+    "xlsx": "^0.18.5",
+    "express":"^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "connect-multiparty":"^2.2.0"
+  }
+}
